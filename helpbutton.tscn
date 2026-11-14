@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://7vv3i6o3iqa"]
+
+[ext_resource type="Texture2D" uid="uid://dawjt0c30eh2n" path="res://assets/help.png" id="1_lrt3o"]
+[ext_resource type="Script" uid="uid://cq7cjn8lipipi" path="res://scripts/helpbutton.gd" id="2_4hg83"]
+
+[node name="Button" type="Button" unique_id=592664213]
+offset_left = 660.0
+offset_top = -220.0
+offset_right = 1423.0
+offset_bottom = 430.0
+offset_transform_enabled = true
+offset_transform_scale = Vector2(0.25, 0.25)
+theme_override_colors/font_color = Color(0.875, 0.875, 0.875, 1)
+theme_override_colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+icon = ExtResource("1_lrt3o")
+script = ExtResource("2_4hg83")
+
+[connection signal="pressed" from="." to="." method="_help"]

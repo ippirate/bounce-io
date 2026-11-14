@@ -1,0 +1,201 @@
+[gd_scene format=4 uid="uid://cdcltjjtfa4l7"]
+
+[ext_resource type="Texture2D" uid="uid://dcnlbq0c0ocj2" path="res://assets/tilemap.png" id="1_2q6dc"]
+[ext_resource type="Script" uid="uid://f6q44w1fwmup" path="res://scripts/level.gd" id="1_ppgk2"]
+[ext_resource type="Script" uid="uid://bqfj1c0r6sk6x" path="res://scripts/label.gd" id="2_2r41h"]
+[ext_resource type="PackedScene" uid="uid://b2ri8vqswq5ca" path="res://scenes/player.tscn" id="2_w7c3h"]
+[ext_resource type="PackedScene" uid="uid://7vv3i6o3iqa" path="res://scenes/helpbutton.tscn" id="3_w8frs"]
+[ext_resource type="PackedScene" uid="uid://pjtkd2hoo0hd" path="res://scenes/bigback.tscn" id="4_2r41h"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w7c3h"]
+texture = ExtResource("1_2q6dc")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+6:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:8/0 = 0
+7:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+8:8/0 = 0
+8:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_w8frs"]
+physics_layer_0/collision_layer = 3
+sources/0 = SubResource("TileSetAtlasSource_w7c3h")
+
+[node name="Node2D" type="Node2D" unique_id=1846123561]
+script = ExtResource("1_ppgk2")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=313315815]
+offset_right = 1153.0
+offset_bottom = 689.0
+color = Color(0.9699283, 0.75550175, 0.8758733, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1118254284]
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 375.0
+offset_bottom = 44.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Extra KG = "
+script = ExtResource("2_2r41h")
+
+[node name="TileMap" type="TileMap" parent="." unique_id=628344024]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_set = SubResource("TileSet_w8frs")
+format = 2
+
+[node name="Layer1" type="TileMapLayer" parent="TileMap" unique_id=1023451953]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAAAA0AAAAGAAgAAAABAA0AAAAHAAgAAAAFAA0AAAAHAAkAAAAGAA0AAAAHAAgAAAAHAA0AAAAHAAgAAAAIAA0AAAAHAAgAAAAJAA0AAAAHAAgAAAAKAA0AAAAHAAgAAAALAA0AAAAHAAgAAAAMAA0AAAAHAAgAAAAQAA0AAAAHAAgAAAARAA0AAAAHAAgAAAASAA0AAAAHAAgAAAATAA0AAAAHAAgAAAAUAA0AAAAHAAgAAAAVAA0AAAAHAAgAAAAWAA0AAAAHAAgAAAAXAA0AAAAIAAgAAAACAAsAAAAGAAgAAAACAAwAAAAGAAkAAAADAAsAAAAHAAgAAAADAAwAAAAHAAkAAAAEAAsAAAAIAAgAAAAEAAwAAAAIAAkAAAAHAAkAAAAGAAgAAAAHAAoAAAAGAAkAAAAIAAkAAAAHAAgAAAAIAAoAAAAHAAkAAAAJAAkAAAAIAAgAAAAJAAoAAAAIAAkAAAAAAAIAAAAGAAgAAAAAAAMAAAAGAAkAAAABAAIAAAAHAAgAAAABAAMAAAAHAAkAAAACAAIAAAAIAAgAAAACAAMAAAAIAAkAAAAFAAQAAAAGAAgAAAAFAAUAAAAGAAkAAAAGAAQAAAAHAAgAAAAGAAUAAAAHAAkAAAAHAAQAAAAIAAgAAAAHAAUAAAAIAAkAAAD//wgAAAAGAAgAAAD//wkAAAAGAAkAAAAAAAgAAAAHAAgAAAAAAAkAAAAHAAkAAAABAAgAAAAIAAgAAAABAAkAAAAIAAkAAAACAA0AAAAGAAkAAAADAA0AAAAHAAkAAAAEAA0AAAAIAAkAAAANAA0AAAAMAAgAAAAOAA0AAAANAAgAAAAPAA0AAAAOAAgAAAANAAwAAAAMAAgAAAAOAAwAAAANAAgAAAAPAAwAAAAOAAgAAAANAAsAAAAMAAgAAAAOAAsAAAANAAgAAAAPAAsAAAAOAAgAAAANAAoAAAAMAAgAAAAOAAoAAAANAAgAAAAPAAoAAAAOAAgAAAANAAkAAAAMAAgAAAAOAAkAAAANAAgAAAAPAAkAAAAOAAgAAAANAAgAAAAMAAgAAAAOAAgAAAANAAgAAAAPAAgAAAAOAAgAAAANAAcAAAAMAAgAAAAOAAcAAAANAAgAAAAPAAcAAAAOAAgAAAANAAYAAAAMAAgAAAAOAAYAAAANAAgAAAAPAAYAAAAOAAgAAAALAAcAAAAHAAgAAAAFAAwAAAAHAAgAAAA=")
+tile_set = SubResource("TileSet_w8frs")
+
+[node name="bigback" parent="." unique_id=220995640 instance=ExtResource("4_2r41h")]
+position = Vector2(417, 389.00006)
+scale = Vector2(0.6, 0.6)
+
+[node name="Player" parent="." unique_id=502610156 instance=ExtResource("2_w7c3h")]
+position = Vector2(316, 145)
+
+[node name="Button" parent="." unique_id=592664213 instance=ExtResource("3_w8frs")]

@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://c8q77msj5xcym"]
+
+[ext_resource type="Script" uid="uid://dvin1yq5ffvwu" path="res://scripts/main_menu.gd" id="1_ekxnf"]
+[ext_resource type="PackedScene" uid="uid://7vv3i6o3iqa" path="res://scenes/helpbutton.tscn" id="2_ekxnf"]
+
+[node name="MainMenu" type="Control" unique_id=1230676101]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ekxnf")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1358294491]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.96862745, 0.75686276, 0.8745098, 1)
+
+[node name="Button" parent="." unique_id=592664213 instance=ExtResource("2_ekxnf")]
+layout_mode = 0
+offset_left = 607.0
+offset_top = -159.0
+offset_right = 1370.0
+offset_bottom = 491.0
+
+[connection signal="pressed" from="Button" to="." method="_on_help_pressed"]

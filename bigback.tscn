@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://pjtkd2hoo0hd"]
+
+[ext_resource type="Texture2D" uid="uid://dlexqlc72qhs5" path="res://assets/WhatsApp Image 2026-11-14 at 07.27.28 (1)-Photoroom.png" id="1_etv2n"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lp3hx"]
+radius = 30.0
+height = 94.0
+
+[node name="bigback" type="Node2D" unique_id=220995640]
+position = Vector2(286, 187)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2015943324]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_etv2n")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1304992690]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=373184927]
+position = Vector2(19, 4)
+rotation = 1.5810723
+shape = SubResource("CapsuleShape2D_lp3hx")
